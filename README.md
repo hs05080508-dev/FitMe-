@@ -10,24 +10,24 @@
 
 ```text
 src/
- ├ apis/        # Axios 인스턴스 설정 및 공통 API 요청 함수
- ├ constants/   # Mock 데이터 및 전역 상수 관리
- ├ features/    # 핵심 비즈니스 기능(도메인)별 폴더
- │  ├ auth/      # 로그인, 회원가입, 온보딩 로직 및 컴포넌트
- │  ├ posting/   # 공고 피드, 공고 상세, 탐색(검색)
- │  ├ saved/     # 찜한 공고 목록 (보관함)
- │  ├ history/   # 지원 및 매칭 히스토리
- │  └ mypage/    # 내 정보 설정 및 프로필
- ├ shared/      # 여러 기능에서 공동으로 재사용하는 요소
- │  ├ components/# Button, Modal, Chip, PostingCard 등 공통 UI 컴포넌트
- │  ├ hooks/     # useDebounce, useInfiniteScroll 등 커스텀 훅
- │  └ utils/     # 날짜 포맷팅, D-Day 계산 등 유틸리티 함수
- ├ pages/       # 라우터에 바인딩되는 개별 화면 컴포넌트
- ├ routes/      # react-router-dom을 이용한 페이지 경로 및 권한 설정
- ├ store/       # Zustand를 활용한 전역 클라이언트 상태 (Auth 등)
- ├ types/       # 공통 TypeScript 타입 정의 (.d.ts 등)
- ├ lib/         # React Query Client 등 라이브러리 설정 파일
- └ package.json # 프로젝트 의존성 및 스크립트 설정
+ ├ apis/
+ ├ constants/
+ ├ features/
+ │  ├ auth/
+ │  ├ posting/
+ │  ├ saved/
+ │  ├ history/
+ │  └ mypage/
+ ├ shared/
+ │  ├ components/
+ │  ├ hooks/
+ │  └ utils/
+ ├ pages/
+ ├ routes/
+ ├ store/
+ ├ types/
+ ├ lib/
+ └ package.json
 ```
 
 ## 🌿 브랜치 및 협업 전략
